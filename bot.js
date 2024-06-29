@@ -17,7 +17,7 @@ try {
     )
   );
   bot.on(message("sticker"), (ctx) => ctx.reply("♥"));
-  bot.hears("Hi", (ctx) => ctx.reply("Hey there"));
+  bot.hears("Hi", (ctx) => ctx.reply("Hey there!\n\n\nType /start to start this bot"));
 
   bot.command("info", (ctx) =>
     ctx.reply(
